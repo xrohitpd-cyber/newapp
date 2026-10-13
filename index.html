@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohit Prasad | IT Infrastructure Manager</title>
+  <meta name="description" content="Rohit Prasad is an IT Infrastructure Manager who runs data centers, networks, cloud platforms and the teams behind them.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Rohit Prasad, home">Rohit Prasad</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav" aria-label="Main">
+        <a href="#focus">What I run</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact" class="nav-cta">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="role">IT Infrastructure Manager</p>
+          <h1>Rohit Prasad keeps the systems your business depends on running.</h1>
+          <p class="lead">I lead the teams and platforms behind data centers, networks, cloud environments and disaster recovery. My work is making sure that when people open their laptops, everything is simply there.</p>
+          <div class="actions">
+            <a class="btn primary" href="#contact">Work with me</a>
+            <a class="btn" href="#experience">See my experience</a>
+          </div>
+        </div>
+
+        <aside class="rack" aria-label="Sample infrastructure status panel">
+          <div class="rack-head">
+            <span class="rack-title">Environment status</span>
+            <span class="rack-note">Sample readings</span>
+          </div>
+          <ul class="rack-list" id="rackList">
+            <li class="unit" style="--i:0" data-base="4">
+              <span class="led" aria-hidden="true"></span>
+              <span class="unit-name">Core network</span>
+              <span class="unit-val"><b>4</b> ms</span>
+            </li>
+            <li class="unit" style="--i:1" data-base="11">
+              <span class="led" aria-hidden="true"></span>
+              <span class="unit-name">Data center</span>
+              <span class="unit-val"><b>11</b> ms</span>
+            </li>
+            <li class="unit" style="--i:2" data-base="23">
+              <span class="led" aria-hidden="true"></span>
+              <span class="unit-name">Cloud workloads</span>
+              <span class="unit-val"><b>23</b> ms</span>
+            </li>
+            <li class="unit" style="--i:3" data-base="38">
+              <span class="led" aria-hidden="true"></span>
+              <span class="unit-name">Backup and recovery</span>
+              <span class="unit-val"><b>38</b> ms</span>
+            </li>
+            <li class="unit" style="--i:4" data-base="9">
+              <span class="led" aria-hidden="true"></span>
+              <span class="unit-name">Identity and access</span>
+              <span class="unit-val"><b>9</b> ms</span>
+            </li>
+          </ul>
+          <div class="rack-foot">
+            <span>Running without an unplanned outage</span>
+            <strong id="streak" aria-live="off">0d 00h 00m 00s</strong>
+          </div>
+        </aside>
+      </div>
+
+      <div class="wrap facts" aria-label="At a glance">
+        <dl>
+          <div><dt>Experience</dt><dd>12+ years in IT infrastructure</dd></div>
+          <div><dt>Availability target</dt><dd>99.95% for core services</dd></div>
+          <div><dt>Team led</dt><dd>18 engineers and admins</dd></div>
+          <div><dt>Sites supported</dt><dd>6 offices, 2 data centers</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- What I run -->
+    <section class="section" id="focus">
+      <div class="wrap">
+        <h2>What I run</h2>
+        <p class="section-intro">Five areas of responsibility, each with a clear owner, a clear target and a plan for when something breaks.</p>
+
+        <ul class="focus-list">
+          <li>
+            <h3>Data center and compute</h3>
+            <p>Capacity planning, virtualization, hardware refresh cycles and vendor contracts for on-premises and colocation environments.</p>
+          </li>
+          <li>
+            <h3>Network and connectivity</h3>
+            <p>LAN, WAN and SD-WAN design, firewall policy, wireless coverage and ISP management across every site.</p>
+          </li>
+          <li>
+            <h3>Cloud and hybrid platforms</h3>
+            <p>Landing zones, workload migration, cost control and a steady path from legacy servers to managed services.</p>
+          </li>
+          <li>
+            <h3>Security and compliance</h3>
+            <p>Patching, endpoint protection, access reviews and audit readiness, built into daily operations instead of added at the end.</p>
+          </li>
+          <li>
+            <h3>Backup and disaster recovery</h3>
+            <p>Defined recovery time and recovery point targets, tested restores every quarter and runbooks anyone on the team can follow.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section alt" id="experience">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <p class="section-intro">Most recent role first.</p>
+
+        <ol class="timeline">
+          <li>
+            <div class="when">2021 to now</div>
+            <div class="what">
+              <h3>IT Infrastructure Manager</h3>
+              <p class="where">Company name, City</p>
+              <ul>
+                <li>Own the infrastructure budget, roadmap and vendor relationships for all sites.</li>
+                <li>Moved 60% of legacy servers to a hybrid cloud setup while keeping downtime inside agreed windows.</li>
+                <li>Introduced an on-call rotation and incident reviews that cut repeat incidents by a third.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="when">2017 to 2021</div>
+            <div class="what">
+              <h3>Senior Systems and Network Engineer</h3>
+              <p class="where">Company name, City</p>
+              <ul>
+                <li>Redesigned the WAN with redundant links, improving branch uptime and cutting circuit costs.</li>
+                <li>Automated server builds and patching with scripts and configuration management.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="when">2013 to 2017</div>
+            <div class="what">
+              <h3>System Administrator</h3>
+              <p class="where">Company name, City</p>
+              <ul>
+                <li>Administered Windows and Linux servers, Active Directory and the company email platform.</li>
+                <li>Led the first successful full disaster recovery test for the business.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <p class="section-intro">Pick a group to see what falls under it.</p>
+
+        <div class="filters" role="group" aria-label="Filter skills by group">
+          <button class="chip is-on" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="compute" aria-pressed="false">Compute</button>
+          <button class="chip" data-filter="network" aria-pressed="false">Network</button>
+          <button class="chip" data-filter="cloud" aria-pressed="false">Cloud</button>
+          <button class="chip" data-filter="security" aria-pressed="false">Security</button>
+          <button class="chip" data-filter="people" aria-pressed="false">Leadership</button>
+        </div>
+
+        <ul class="skill-grid" id="skillGrid">
+          <li data-cat="compute">VMware vSphere</li>
+          <li data-cat="compute">Hyper-V</li>
+          <li data-cat="compute">Windows Server</li>
+          <li data-cat="compute">Linux (RHEL, Ubuntu)</li>
+          <li data-cat="compute">Storage and SAN</li>
+          <li data-cat="network">Cisco and Juniper</li>
+          <li data-cat="network">SD-WAN</li>
+          <li data-cat="network">Firewalls and VPN</li>
+          <li data-cat="network">DNS and DHCP</li>
+          <li data-cat="cloud">Microsoft Azure</li>
+          <li data-cat="cloud">AWS</li>
+          <li data-cat="cloud">Terraform</li>
+          <li data-cat="cloud">Cloud cost management</li>
+          <li data-cat="security">Identity and access management</li>
+          <li data-cat="security">ISO 27001</li>
+          <li data-cat="security">Backup and disaster recovery</li>
+          <li data-cat="security">Patch management</li>
+          <li data-cat="people">Team leadership</li>
+          <li data-cat="people">Budgeting and vendor negotiation</li>
+          <li data-cat="people">ITIL service management</li>
+          <li data-cat="people">Incident response</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Credentials -->
+    <section class="section alt" id="credentials">
+      <div class="wrap">
+        <h2>Credentials</h2>
+        <div class="cred-grid">
+          <div>
+            <h3>Education</h3>
+            <p>B.Tech in Computer Science and Engineering</p>
+          </div>
+          <div>
+            <h3>Certifications</h3>
+            <ul class="plain">
+              <li>ITIL 4 Foundation</li>
+              <li>Cisco CCNP Enterprise</li>
+              <li>Microsoft Azure Administrator</li>
+              <li>VMware Certified Professional</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Need a steadier infrastructure?</h2>
+          <p class="section-intro">Send a short note about what you are running today and what keeps you up at night. I reply within two working days.</p>
+        </div>
+        <div class="contact-card">
+          <a class="mail" id="mailLink" href="mailto:rohit.prasad@example.com">rohit.prasad@example.com</a>
+          <div class="actions">
+            <button class="btn primary" id="copyBtn" type="button">Copy email</button>
+            <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn profile</a>
+          </div>
+          <p class="copy-status" id="copyStatus" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year">2026</span> Rohit Prasad</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
